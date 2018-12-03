@@ -6,8 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - [x] Initialize project
   - [x] Initialize linting
   - [x] Initialize React Router
-  - [] Include Bulma
-  - [] Initialize Redux
-  - [] Initialize basic testing
+  - [x] Include Bulma
+  - [x] Initialize basic testing
 - New Card Form
   - [ ] Create basic fields for title, 
