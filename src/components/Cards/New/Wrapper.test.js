@@ -1,16 +1,16 @@
 import React from 'react'
 import { mount } from 'enzyme'
-import NewCardWrapper from './New'
+import CardsNewWrapper from './Wrapper'
 
 describe('Title Field', () => {
   test('exists', () => {
-    const input = mount(<NewCardWrapper />).find('input#title')
+    const input = mount(<CardsNewWrapper />).find('input#title')
     expect(input.exists()).toBeTruthy()
   })
 
   test('updates the form field', () => {
     // Check on wrapper state
-    const wrapper = mount(<NewCardWrapper />)
+    const wrapper = mount(<CardsNewWrapper />)
     const state = wrapper.state('form')
     expect(Object.keys(state.values)).toHaveLength(0)
 

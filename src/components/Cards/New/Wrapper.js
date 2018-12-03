@@ -7,7 +7,7 @@ const Wrapper = styled.section`
   margin-top: 0 !important;
 `
 
-class NewCardWrapper extends React.Component {
+class CardsNewWrapper extends React.Component {
   state = { form: {} }
   sync = (form) => {
     this.setState({ form })
@@ -37,4 +37,4 @@ class NewCardWrapper extends React.Component {
   }
 }
 
-export default NewCardWrapper
+export default CardsNewWrapper
