@@ -9,4 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - [x] Include Bulma
   - [x] Initialize basic testing
 - New Card Form
-  - [ ] Create basic fields for title, 
+  - [ ] Create basic fields for title, image, card text
+  - [ ] Visually reflect field changes
+  - [ ] Add additional fields with visuals reflected
+    
