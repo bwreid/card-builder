@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Form, Text } from 'informed'
+import { Form } from 'informed'
+import Field from './helpers/Field'
 
 const Wrapper = styled.section`
   height: 100vh;
@@ -20,12 +21,9 @@ class CardsNewWrapper extends React.Component {
           <section className='section'>
             <Form onChange={this.sync}>
               <div className='field'>
-                <label className='label'>
-                  Title
-                  <div className='control'>
-                    <Text id='title' className='input' field='title' />
-                  </div>
-                </label>
+                <Field name={'Title'} />
+                <Field name={'Image URL'} />
+                <Field name={'Card Text'} />
                 <button className='button is-primary' type='submit'>Create</button>
               </div>
             </Form>
